@@ -281,6 +281,89 @@ The application is successfully deployed on AWS with:
 * Production-ready deployment with Nginx and PM2
 
 ---
+# Project Screenshots
+
+## Application
+
+### Home Page
+
+![Home](screenshots/app/home-page.png)
+
+---
+### Login Page
+
+![Login](screenshots/app/login-page.png)
+
+---
+
+### Employer Dashboard
+
+![Employer](screenshots/app/employer-dashboard.png)
+
+---
+
+### Job Seeker Dashboard
+
+![Seeker](screenshots/app/seeker-dashboard.png)
+
+---
+### Job Details Page
+
+![Job Details](screenshots/app/job-details.png)
+
+---
+## AWS Infrastructure
+
+### EC2 Instance
+
+![EC2_Instances](screenshots/aws/ec2-instance.png)
+
+---
+
+### Amazon RDS
+
+![RDS_instance](screenshots/aws/rds-instance.png)
+
+---
+
+### CloudFront Distribution
+
+![cloudfronts](screenshots/aws/cloudfront.png)
+
+---
+
+### Amazon S3 Bucket
+
+![s3_bucket](screenshots/aws/s3-bucket.png)
+
+---
+
+### Origin Access Control
+
+![Origin_Access](screenshots/aws/origin-access-control.png)
+
+---
+## Deployment Verification
+
+### PM2 Process
+
+![PM2_Process](screenshots/deployment/pm2-running.png)
+
+
+---
+
+### Nginx Running
+
+![Nginx_Process](screenshots/deployment/nginx-running.png)
+
+---
+
+### HTTPS SSL Certificate
+
+![SSL_Certificate](screenshots/deployment/ssl-certificate.png)
+
+---
+
 
 # GitHub Repository Structure
 
@@ -302,11 +385,22 @@ Online-Job-Application-Portal/
 │   └── package.json
 │
 ├── screenshots/
-│   ├── architecture.png
-│   ├── homepage.png
-│   ├── login.png
-│   ├── dashboard.png
-│   └── aws-deployment.png
+│   ├── app/
+│       ├──home-page.png
+│       ├──login-page.png
+│       ├──employer-dashboard.png
+│       ├──seeker-dashboard.png
+│       ├──job-details.png
+│   ├── aws/
+│       ├──ec2-instance.png
+│       ├──rds-instance.png
+│       ├──s3-bucket.png
+│       ├──cloudfront.png
+│       ├──origin-access-control.png
+│   ├── deployment/
+│       ├──pm2-running.png
+│       ├──nginx-running.png
+│       ├──ssl-certificate.png
 │
 ├── README.md
 └── LICENSE
