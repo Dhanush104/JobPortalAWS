@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Set standard API Base URL
-  const API_URL = 'http://localhost:5000/api';
+  const API_URL = 'https://jobportal.duckdns.org/api';
 
   useEffect(() => {
     const fetchMe = async () => {
