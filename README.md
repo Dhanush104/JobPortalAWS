@@ -53,24 +53,23 @@ The frontend is built using **React.js** and hosted on **Amazon S3** with **Clou
 ```text
                   Users
                      │
-                     ▼
-            Amazon CloudFront
+               HTTPS Request
                      │
-                     ▼
+          Amazon CloudFront (CDN)
+                     │
               Amazon S3 Bucket
-             (React Frontend)
+         (React Frontend - Vite)
                      │
-        HTTPS API Requests
+          HTTPS API Requests
                      │
-                     ▼
-        DuckDNS + Let's Encrypt
+             DuckDNS Domain
                      │
-                     ▼
-               Amazon EC2
-          Node.js + Express API
+              Nginx Reverse Proxy
                      │
-                     ▼
-             Amazon RDS MySQL
+             Node.js + Express
+             (Running with PM2)
+                     │
+               Amazon RDS MySQL
 ```
 
 ---
