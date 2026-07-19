@@ -385,11 +385,22 @@ Online-Job-Application-Portal/
 │   └── package.json
 │
 ├── screenshots/
-│   ├── architecture.png
-│   ├── homepage.png
-│   ├── login.png
-│   ├── dashboard.png
-│   └── aws-deployment.png
+│   ├── app/
+│       ├──home-page.png
+│       ├──login-page.png
+│       ├──employer-dashboard.png
+│       ├──seeker-dashboard.png
+│       ├──job-details.png
+│   ├── aws/
+│       ├──ec2-instance.png
+│       ├──rds-instance.png
+│       ├──s3-bucket.png
+│       ├──cloudfront.png
+│       ├──origin-access-control.png
+│   ├── deployment/
+│       ├──pm2-running.png
+│       ├──nginx-running.png
+│       ├──ssl-certificate.png
 │
 ├── README.md
 └── LICENSE
