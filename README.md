@@ -243,14 +243,10 @@ aws cloudfront create-invalidation \
 
 # Challenges Faced
 
-* PM2 process restart issues
-* Port 3000 conflicts
+
 * Nginx reverse proxy configuration
 * CloudFront mixed-content errors
-* HTTPS configuration
 * SSL certificate installation
-* JWT secret configuration
-* Backend environment variable setup
 
 ---
 
@@ -316,5 +312,3 @@ Online-Job-Application-Portal/
 ├── README.md
 └── LICENSE
 ```
-
-This will make the repository more professional and easier for recruiters or reviewers to evaluate.
