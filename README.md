@@ -314,6 +314,12 @@ The application is successfully deployed on AWS with:
 ---
 ## AWS Infrastructure
 
+### Amazon VPC
+
+![Amazon_VP](screenshots/aws/Vpc.png)
+
+---
+
 ### EC2 Instance
 
 ![EC2_Instances](screenshots/aws/ec2-instance.png)
